@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Music">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/list_music"
+                    android:icon="@drawable/ic_list_of_songs"
+                    android:title="List Music"/>
+                <item
+                    android:id="@+id/my_music"
+                    android:icon="@drawable/ic_favorite"
+                    android:title="My Music"/>
+
+                <item
+                    android:id="@+id/favorite_music"
+                    android:icon="@drawable/ic_rank"
+                    android:title="Favorite"/>
+            </group>
+            </menu>
+        </item>
+
+        <item android:title="Video">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/list_video"
+                    android:icon="@drawable/ic_video_list"
+                    android:title="List Video"/>
+                <item
+                    android:id="@+id/my_video"
+                    android:icon="@drawable/ic_camera_with_heart_sign"
+                    android:title="My Music"/>
+
+                <item
+                    android:id="@+id/favorite_video"
+                    android:icon="@drawable/ic_favorite_video_recording"
+                    android:title="Favorite"/>
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/setting_app"
+            android:icon="@drawable/ic_settings"
+            android:title="Setting"/>
+        <item
+            android:id="@+id/equalizer"
+            android:icon="@drawable/ic_equaliz"
+            android:title="Equalizer"/>
+    </group>
+</menu>
